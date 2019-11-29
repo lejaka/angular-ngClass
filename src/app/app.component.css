@@ -1,0 +1,12 @@
+p {
+  font-family: Lato;
+}
+.removeClass {
+  background-color: red;
+}
+.addClass {
+    background-color: skyblue;
+}
+.defaultClass {
+    background-color: green;
+}

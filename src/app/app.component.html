@@ -1,0 +1,10 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<button [ngClass]="{
+    'removeClass':active =='remove',
+    'addClass':active == 'add',
+    'defaultClass':active == 'default'
+  }" (click)="changeClass()"> Button content </button>
